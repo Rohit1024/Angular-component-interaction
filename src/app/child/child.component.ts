@@ -6,7 +6,7 @@ import { Component, EventEmitter, Input, OnInit, Output } from '@angular/core';
   styleUrls: ['./child.component.css']
 })
 export class ChildComponent implements OnInit {
-  @Input() childMessage!: string;
+  @Input() parentMessage!: string;
 
   message: string = "Hello from Child to Parent!"
 
