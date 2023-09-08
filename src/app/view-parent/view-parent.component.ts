@@ -7,7 +7,7 @@ import { ViewChildComponent } from '../view-child/view-child.component';
   styleUrls: ['./view-parent.component.css']
 })
 export class ViewParentComponent implements OnInit, AfterViewInit {
-  @ViewChild(ViewChildComponent, {static : false }) child: ViewChildComponent | undefined;;
+  @ViewChild(ViewChildComponent, {static : false }) child: ViewChildComponent | undefined;
   constructor() { }
 
   childMessage!:string;
